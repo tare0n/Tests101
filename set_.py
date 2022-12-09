@@ -10,8 +10,5 @@ def set_(coll, path, value=0):
     coll.update(out_dict)
 
 
-set_({"a": {"b": {"c": 4}}}, ["a", "b", "c"], 6)
-
-
 
 
